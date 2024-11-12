@@ -1,7 +1,7 @@
 import { FC, ReactNode } from 'react';
-import Link from 'next/link';  // Import Link from Next.js
-import Image from 'next/image'; // Import Image from Next.js
-import '../styles/globals.css';  // Correct import path to global styles
+import Link from 'next/link'; // Import Link
+import Image from 'next/image'; // Import Image
+import '../styles/globals.css';
 
 const Layout: FC<{ children: ReactNode }> = ({ children }) => {
   return (

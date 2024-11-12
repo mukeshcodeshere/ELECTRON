@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <section>
       <h1>Welcome to Electron!</h1>
-      <p>Invest in India's high-growth sectors today!</p>
+      <p>It's great to have you here!</p> {/* Correct single quote */}
     </section>
   );
 };

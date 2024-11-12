@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section>
       <h1>About Electron</h1>
-      <p>Welcome to Electron. It&apos;s the future of investments!</p>
+      <p>It's all about making investments smarter.</p> {/* Correct single quote */}
     </section>
   );
 };
