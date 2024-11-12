@@ -1,6 +1,6 @@
 // app/layout.tsx
 import { FC, ReactNode } from 'react';
-import './styles/globals.css';  // Correct path to the global styles
+import './styles/globals.css';  // Import the global styles
 
 const Layout: FC<{ children: ReactNode }> = ({ children }) => {
   return (
@@ -9,10 +9,10 @@ const Layout: FC<{ children: ReactNode }> = ({ children }) => {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Electron - Unlocking Global Access to India’s Private Markets</title>
-        {/* You can add other head tags like favicon, etc. here */}
       </head>
       <body>
         <header>
+          <img src="/logo.svg" alt="Electron Logo" />  {/* Logo at the top */}
           <h1>Electron</h1>
           <nav>
             <ul>
@@ -23,8 +23,12 @@ const Layout: FC<{ children: ReactNode }> = ({ children }) => {
             </ul>
           </nav>
         </header>
+
         <main>{children}</main>
-        <footer>© 2024 Electron, All Rights Reserved</footer>
+
+        <footer>
+          <p>© 2024 Electron, All Rights Reserved</p>
+        </footer>
       </body>
     </html>
   );
