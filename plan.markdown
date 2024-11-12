@@ -34,6 +34,9 @@ Electron is a fintech platform that democratizes access to India’s private mar
 5. **Regulatory Compliance & Risk Management**  
    We adhere to global financial regulations, ensuring investor protection and minimizing risks through anti-money laundering (AML) measures and real-time monitoring.
 
+6. **Community**  
+   Participants will be able to communicate with each other and share insights/deals directly on the platform.
+
 ---
 
 ### **Key Products and Services**
@@ -127,6 +130,8 @@ Electron is positioned to transform how global investors access India’s privat
 - India accounts for **7% of global VC deals and 4.3% of global VC funding value**[4]
 
 These statistics powerfully validate Electron's business model by highlighting India's robust and growing investment ecosystem, demonstrating significant potential for a platform democratizing access to private markets.
+
+**Overall improves liqudity in private markets, as app is basically buidling a virtual secondaries private market.**
 
 Citations:
 [1] https://dpiit.gov.in/publications/fdi-statistics
