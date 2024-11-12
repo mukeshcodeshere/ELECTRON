@@ -1,13 +1,12 @@
-// app/page.tsx main page
-import { FC } from 'react';
+import React from 'react';
 
-const Home: FC = () => {
+const HomePage = () => {
   return (
-    <div>
-      <h1>Welcome to Electron</h1>
-      <p>Unlocking global access to India's private markets</p>
-    </div>
+    <section>
+      <h1>Welcome to Electron!</h1>
+      <p>Invest in India's high-growth sectors today!</p>
+    </section>
   );
 };
 
-export default Home;
+export default HomePage;

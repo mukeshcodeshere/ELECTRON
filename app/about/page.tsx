@@ -1,12 +1,11 @@
-// app/about/page.tsx
-import { FC } from 'react';
+import React from 'react';
 
-const About: FC = () => {
+const About = () => {
   return (
-    <div>
+    <section>
       <h1>About Electron</h1>
-      <p>We democratize access to India's private markets.</p>
-    </div>
+      <p>Welcome to Electron. It&apos;s the future of investments!</p>
+    </section>
   );
 };
 
